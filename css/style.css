@@ -36,6 +36,32 @@ body {
 }
 
 
+/* ***** main ***** */
+
+main .container {
+    padding-bottom: 20px;
+}
+
+.main-top {
+    margin-bottom: 20px;
+}
+
+.left-column,
+.right-column {
+    width: 20%;
+}
+
+.main-content {
+    margin: 0 2%;
+    width: 56%;
+}
+
+.left-column,
+.main-content,
+.right-column {
+    float: left;
+}
+
 /* +++++ debug +++++ */
 
 .debug .header-top {
@@ -47,11 +73,23 @@ body {
     height: 350px;
 }
 
-.container.debug.blue {
+main .container.debug {
     background-color: #0086FF;
 }
 
 .debug .main-top {
-    background-color: #abcfe7;
     height: 75px;
+}
+
+.debug .left-column,
+.debug .main-content,
+.debug .right-column {
+    height: 400px;
+}
+
+.debug .main-top,
+.debug .left-column,
+.debug .main-content,
+.debug .right-column {
+    background-color: #abcfe7;
 }
