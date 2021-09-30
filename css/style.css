@@ -46,3 +46,12 @@ body {
     background-color: #E1D67A;
     height: 350px;
 }
+
+.container.debug.blue {
+    background-color: #0086FF;
+}
+
+.debug .main-top {
+    background-color: #abcfe7;
+    height: 75px;
+}
