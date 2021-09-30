@@ -62,6 +62,15 @@ main .container {
     float: left;
 }
 
+
+/* ***** footer ***** */
+
+footer .container {
+    height: 50px;
+    margin-top: 10px;
+}
+
+
 /* +++++ debug +++++ */
 
 .debug .header-top {
@@ -92,4 +101,8 @@ main .container.debug {
 .debug .main-content,
 .debug .right-column {
     background-color: #abcfe7;
+}
+
+footer .debug.container {
+    background-color: #8801fe;
 }
