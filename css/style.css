@@ -21,14 +21,28 @@ body {
     padding: 20px 0;
 }
 
+
 /* ***** header top ***** */
 
 .header-top {
     height: 100px;
 }
 
+
+/* header bottom */
+
+.header-bottom {
+ margin: 20px 0;
+}
+
+
 /* +++++ debug +++++ */
 
 .debug .header-top {
     background-color: #E579E6;
+}
+
+.debug .header-bottom {
+    background-color: #E1D67A;
+    height: 350px;
 }
